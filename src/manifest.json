@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "GETTR",
+	"description": "Sidebar extenstion for gettr.com",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+
+	
+	"sidebar_action": {
+	// Required
+	"default_icon": "icon.png",
+	// Optional; shown in tooltip
+	"default_title": "GETTR Extension",
+	// Required
+	"default_panel": "panel.html"
+}
+	
+}
